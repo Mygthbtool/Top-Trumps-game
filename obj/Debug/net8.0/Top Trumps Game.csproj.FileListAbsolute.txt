@@ -1,0 +1,15 @@
+C:\Users\midoo\Top Trumps Game\bin\Debug\net8.0\Top Trumps Game.exe
+C:\Users\midoo\Top Trumps Game\bin\Debug\net8.0\Top Trumps Game.deps.json
+C:\Users\midoo\Top Trumps Game\bin\Debug\net8.0\Top Trumps Game.runtimeconfig.json
+C:\Users\midoo\Top Trumps Game\bin\Debug\net8.0\Top Trumps Game.dll
+C:\Users\midoo\Top Trumps Game\bin\Debug\net8.0\Top Trumps Game.pdb
+C:\Users\midoo\Top Trumps Game\obj\Debug\net8.0\Top Trumps Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\midoo\Top Trumps Game\obj\Debug\net8.0\Top Trumps Game.AssemblyInfoInputs.cache
+C:\Users\midoo\Top Trumps Game\obj\Debug\net8.0\Top Trumps Game.AssemblyInfo.cs
+C:\Users\midoo\Top Trumps Game\obj\Debug\net8.0\Top Trumps Game.csproj.CoreCompileInputs.cache
+C:\Users\midoo\Top Trumps Game\obj\Debug\net8.0\Top Trumps Game.sourcelink.json
+C:\Users\midoo\Top Trumps Game\obj\Debug\net8.0\Top Trumps Game.dll
+C:\Users\midoo\Top Trumps Game\obj\Debug\net8.0\refint\Top Trumps Game.dll
+C:\Users\midoo\Top Trumps Game\obj\Debug\net8.0\Top Trumps Game.pdb
+C:\Users\midoo\Top Trumps Game\obj\Debug\net8.0\Top Trumps Game.genruntimeconfig.cache
+C:\Users\midoo\Top Trumps Game\obj\Debug\net8.0\ref\Top Trumps Game.dll

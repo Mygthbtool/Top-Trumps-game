@@ -2,7 +2,9 @@
 // Console.WriteLine("Hello, World!");
 //Program.cs
 using System;
-    //Main program entry point
+using System.Collections.Generic;
+namespace Top_Trumps_Game;
+//Main program entry point
 class Program
 {
     static void Main(string[] args)
@@ -12,7 +14,7 @@ class Program
         Player player2 = new Player("Player 2");
 
         // Initialize and set up the game.
-        Game game = new Game (player1, player2);
+        Game game = new Game(player1, player2);
         game.InitializeDeck();
         game.ShuffleDeck();
         game.DistributeCards();

@@ -1,6 +1,7 @@
 //Card.cs
 using System;
 
+namespace Top_Trumps_Game;
 // Represent a card with attributes for the game
 public class Card
 {
@@ -14,17 +15,17 @@ public class Card
     // Card constructor
     public Card(string name, int topSpeed, int horsePower, int price, double design)
     {
-        string Name = name;
-        int TopSpeed = topSpeed;
-        int HorsePower = horsePower;
-        int Price = price;
-        double Design = design;
+        this.Name = name;
+        this.TopSpeed = topSpeed;
+        this.HorsePower = horsePower;
+        this.Price = price;
+        this.Design = design;
     }
 
     // Method output the car attributres
     public override string ToString()
     {
-        return $"{Name}, Top Speed: {TopSpeed} mph, Horse Power: {HorsePower} hp, Price: £{Price}, Design: {Design} out of 10";
+        return $"{Name} - Top Speed: {TopSpeed} mph, Horse Power: {HorsePower} hp, Price: £{Price}, Design: {Design} out of 10";
     }
 
 }

@@ -1,6 +1,7 @@
 //Player.cs
 using System.Collections.Generic;
 using System.Dynamic;
+namespace Top_Trumps_Game;
 
 // Represent a player in the game who holds a collection of cards
 public class Player

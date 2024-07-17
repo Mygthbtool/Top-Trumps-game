@@ -1,6 +1,6 @@
 //Game.cs
 
-
+namespace Top_Trumps_Game;
 
 public class Game
 {
@@ -22,13 +22,21 @@ public class Game
         Deck.Add(new Card("Bugatti Chiron", 261, 1479, 2500000, 10));
         Deck.Add(new Card("Lamborghini Aventador ", 217, 759, 518000, 9));
         Deck.Add(new Card("Ferrari LaFerrari", 218, 950, 1200000, 8.5));
-        Deck.Add(new Card("Porche 911 GTE", 211, 700, 290000, 8.3));
+        Deck.Add(new Card("Porche 911 GTE", 211, 700, 290000, 8.6));
         Deck.Add(new Card("McLaren P1", 220, 903, 1100000, 9.5));
         Deck.Add(new Card("Koenigsegg Jesko", 300, 1600, 2700000, 10));
         Deck.Add(new Card("Aston Martin Valkyrie", 250, 1160, 2800000, 9));
         Deck.Add(new Card("Pagani Huayra", 238, 730, 2400000, 8.8));
         Deck.Add(new Card("Tesla Roadster (2022)", 250, 1000, 200000, 8));
         Deck.Add(new Card("Ford GT", 216, 647, 500000, 7));
+
+        // Debug: Print the initialized deck
+        // Console.WriteLine("Deck Initialized:");
+        // foreach (var card in Deck)
+        // {
+        //     Console.WriteLine(card);
+        // }
+
 
     }
 
@@ -86,7 +94,7 @@ public class Game
                 }
                 else
                 {
-                    Console.WriteLine("input is invalid. Please enter a number between 1 and 5");
+                    Console.WriteLine("input is invalid. Please enter a number between 1 and 4");
                 }
 
             }
@@ -137,9 +145,9 @@ public class Game
             case 2:
                 return card1.HorsePower.CompareTo(card2.HorsePower);
             case 3:
-                return card2.Price.CompareTo(card1.Price);
+                return card1.Price.CompareTo(card2.Price);
             case 4:
-                return card2.Design.CompareTo(card1.Design);
+                return card1.Design.CompareTo(card2.Design);
             default:
                 throw new ArgumentException("Invalid Attribute selected.");
         }
